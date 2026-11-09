@@ -1,15 +1,49 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>AAYUSH HOME TUITIONS HYD | Home Tuitions in Hyderabad</title>
+<title>Home Tuition in Hyderabad | AAYUSH HOME TUITIONS HYD</title>
 
-<meta name="description" content="AAYUSH HOME TUITIONS provides home tuition services in Hyderabad for Classes 1 to 12, CBSE, ICSE and Telangana State Board. Register as a tutor or enquire for home tuition. Call 9440051590.">
+<meta name="description" content="Looking for home tuition in Hyderabad? AAYUSH HOME TUITIONS connects parents with home tutors for Classes 1 to 12, CBSE, ICSE and Telangana State Board. Call 9440051590.">
 
 <meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://aayushgautam23123-tech.github.io/HYD-HOME-TUITION/">
+
+<meta name="theme-color" content="#073765">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="AAYUSH HOME TUITIONS HYD | Home Tuition in Hyderabad">
+<meta property="og:description" content="Find home tuition support in Hyderabad for Classes 1 to 12. Parent enquiries and tutor registrations welcome. Call 9440051590.">
+<meta property="og:url" content="https://aayushgautam23123-tech.github.io/HYD-HOME-TUITION/">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AAYUSH HOME TUITIONS HYD">
+<meta name="twitter:description" content="Home tuition support in Hyderabad for Classes 1 to 12. Call 9440051590.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AAYUSH HOME TUITIONS HYD",
+  "url": "https://aayushgautam23123-tech.github.io/HYD-HOME-TUITION/",
+  "telephone": "+919440051590",
+  "description": "A home tuition consultancy connecting parents with home tutors in Hyderabad for Classes 1 to 12, CBSE, ICSE and Telangana State Board.",
+  "areaServed": {
+    "@type": "City",
+    "name": "Hyderabad"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+919440051590",
+    "contactType": "customer service",
+    "availableLanguage": ["English", "Telugu", "Hindi"]
+  }
+}
+</script>
 
 <style>
 :root {
@@ -23,7 +57,10 @@
 
 * { box-sizing:border-box; }
 
-html { scroll-behavior:smooth; }
+html {
+ scroll-behavior:smooth;
+ scroll-padding-top:85px;
+}
 
 body {
  margin:0;
@@ -33,6 +70,16 @@ body {
 }
 
 a { color:inherit; }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+ outline:3px solid #ffbd21;
+ outline-offset:3px;
+}
 
 header {
  background:var(--navy);
@@ -90,6 +137,7 @@ header {
  border-radius:8px;
  padding:7px 10px;
  font-size:1rem;
+ cursor:pointer;
 }
 
 .hero {
@@ -422,6 +470,60 @@ section { padding:64px 22px; }
  font-weight:800;
 }
 
+/* SEO CONTENT */
+
+.seo-content {
+ background:#fff;
+}
+
+.seo-content h3 {
+ color:var(--navy);
+ margin-top:25px;
+}
+
+.seo-content p {
+ color:#405d78;
+}
+
+.seo-content ul {
+ padding-left:22px;
+}
+
+.seo-content li {
+ margin-bottom:8px;
+}
+
+/* FAQ */
+
+.faq-section {
+ background:#f4f9ff;
+}
+
+.faq-list {
+ max-width:850px;
+ margin:auto;
+ display:grid;
+ gap:12px;
+}
+
+.faq-list details {
+ background:#fff;
+ border:1px solid #dceaf5;
+ border-radius:12px;
+ padding:17px 20px;
+}
+
+.faq-list summary {
+ color:var(--navy);
+ font-weight:800;
+ cursor:pointer;
+}
+
+.faq-list details p {
+ margin-bottom:0;
+ color:#536d86;
+}
+
 footer {
  background:var(--navy);
  color:white;
@@ -495,14 +597,14 @@ footer {
 <header>
 <nav class="nav" aria-label="Main navigation">
 
-<a href="#home" style="text-decoration:none">
+<a href="#home" style="text-decoration:none" aria-label="Aayush Home Tuitions home">
  <div class="brand">
   📚 Aayush <span>Home Tuitions</span>
   <div class="tag">Learn Today • Build a Better Tomorrow</div>
  </div>
 </a>
 
-<button class="menu" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+<button class="menu" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navlinks">
  ☰ Menu
 </button>
 
@@ -512,6 +614,7 @@ footer {
  <a href="#classes">Classes</a>
  <a href="#why">Why Us</a>
  <a href="#tutor-register">Tutor Register</a>
+ <a href="#faq">FAQs</a>
  <a href="#contact">Contact</a>
 </div>
 
@@ -529,14 +632,15 @@ footer {
  <div class="eyebrow">Personalized learning • Better results</div>
 
  <h1>
-  Home Tuition for
+  Home Tuition in Hyderabad for
   <span class="highlight">Classes 1–12</span>
  </h1>
 
  <p>
-  <strong>All Subjects | Hyderabad</strong><br>
-  Supportive teaching, flexible timings and individual attention
-  to help every student learn with confidence.
+  <strong>All Subjects | Hyderabad, Telangana</strong><br>
+  AAYUSH HOME TUITIONS helps parents connect with home tutors
+  for school students. Discuss your child's class, subjects,
+  preferred timing and location with us.
  </p>
 
  <div class="actions">
@@ -551,10 +655,10 @@ footer {
   </a>
  </div>
 
- <p class="small">Home tuition in Hyderabad • Classes 1st to 12th</p>
+ <p class="small">Home tutors in Hyderabad • Classes 1st to 12th</p>
 </div>
 
-<div class="hero-visual">
+<div class="hero-visual" role="img" aria-label="Illustration representing a student learning at home">
  <div class="visual-sun"></div>
  <div class="visual-books">📚 📘 📗</div>
  <div class="visual-student">👩🏻‍🎓</div>
@@ -579,25 +683,25 @@ footer {
 <div class="feature-grid">
 
 <div class="feature">
- <div class="icon">👩‍🏫</div>
+ <div class="icon" aria-hidden="true">👩‍🏫</div>
  <strong>Personal Attention</strong>
  <span class="small">Learning at the student's pace</span>
 </div>
 
 <div class="feature">
- <div class="icon">🏠</div>
+ <div class="icon" aria-hidden="true">🏠</div>
  <strong>Home Tuition</strong>
  <span class="small">Convenient learning</span>
 </div>
 
 <div class="feature">
- <div class="icon">🕒</div>
+ <div class="icon" aria-hidden="true">🕒</div>
  <strong>Flexible Timings</strong>
  <span class="small">Discuss a suitable schedule</span>
 </div>
 
 <div class="feature">
- <div class="icon">📈</div>
+ <div class="icon" aria-hidden="true">📈</div>
  <strong>Steady Progress</strong>
  <span class="small">Build skills and confidence</span>
 </div>
@@ -610,33 +714,35 @@ footer {
 <section id="services">
 <div class="container">
 
-<h2 class="section-title">Learning Support That Fits Your Child</h2>
+<h2 class="section-title">Home Tuition Services in Hyderabad</h2>
 
 <p class="section-lead">
 A supportive approach to school learning, practice, revision and doubt-clearing.
+Contact AAYUSH HOME TUITIONS HYD to discuss your home tuition requirements.
 </p>
 
 <div class="cards">
 
 <article class="card">
- <div class="card-icon">📘</div>
+ <div class="card-icon" aria-hidden="true">📘</div>
  <h3>School Subjects</h3>
- <p>Tuition support across school subjects, based on the student's class and syllabus.</p>
+ <p>Tuition support across school subjects, based on the student's class, syllabus and learning needs.</p>
 </article>
 
 <article class="card">
- <div class="card-icon">✍️</div>
+ <div class="card-icon" aria-hidden="true">✍️</div>
  <h3>Homework & Revision</h3>
  <p>Guided practice, revision routines and help understanding difficult concepts.</p>
 </article>
 
 <article class="card">
- <div class="card-icon">🎯</div>
+ <div class="card-icon" aria-hidden="true">🎯</div>
  <h3>Individual Attention</h3>
  <p>Focus on learning needs, confidence, regular practice and steady improvement.</p>
 </article>
 
 </div>
+
 </div>
 </section>
 
@@ -645,10 +751,11 @@ A supportive approach to school learning, practice, revision and doubt-clearing.
 <section id="classes" style="background:#fffdf4">
 <div class="container">
 
-<h2 class="section-title">Classes We Cover</h2>
+<h2 class="section-title">Home Tutors for Classes 1 to 12</h2>
 
 <p class="section-lead">
-Tuition for students from 1st class through Intermediate / Class 12.
+Tuition enquiries for students from 1st class through Intermediate / Class 12.
+Tutor availability depends on the subject, location and schedule.
 </p>
 
 <div class="grade-grid">
@@ -683,6 +790,41 @@ Subjects
 </div>
 </section>
 
+<!-- BOARDS -->
+
+<section id="boards">
+<div class="container">
+
+<h2 class="section-title">CBSE, ICSE & Telangana State Board Tuition</h2>
+
+<p class="section-lead">
+Parents can enquire about home tuition according to their child's school board and syllabus.
+</p>
+
+<div class="cards">
+
+<article class="card">
+ <div class="card-icon" aria-hidden="true">📗</div>
+ <h3>CBSE Home Tuition</h3>
+ <p>Ask about subject-wise learning support, homework practice and revision for CBSE students.</p>
+</article>
+
+<article class="card">
+ <div class="card-icon" aria-hidden="true">📙</div>
+ <h3>ICSE Home Tuition</h3>
+ <p>Enquire about tuition support based on the student's ICSE class, subjects and syllabus.</p>
+</article>
+
+<article class="card">
+ <div class="card-icon" aria-hidden="true">📕</div>
+ <h3>Telangana State Board</h3>
+ <p>Discuss home tuition requirements for students following the Telangana State Board syllabus.</p>
+</article>
+
+</div>
+</div>
+</section>
+
 <!-- WHY US -->
 
 <section class="why" id="why">
@@ -693,21 +835,21 @@ Subjects
   Why Choose Aayush Home Tuitions?
  </h2>
 
- <p>We aim to make learning clearer, more comfortable and more consistent for every student.</p>
+ <p>AAYUSH HOME TUITIONS HYD is a home tuition consultancy that helps parents discuss their requirements and connect with tutors.</p>
 
  <ul class="checklist">
   <li>Supportive, student-focused teaching</li>
   <li>Help with homework and exam revision</li>
   <li>Flexible timing by discussion</li>
   <li>Attention to doubts and learning gaps</li>
-  <li>Regular practice and progress focus</li>
+  <li>Tuition enquiries for different classes and subjects</li>
  </ul>
 </div>
 
 <div class="card">
- <div class="card-icon">🌟</div>
- <h3>Your Child’s Success Is Our Priority</h3>
- <p>Let’s discuss your child’s class, subjects, preferred timing and tuition location.</p>
+ <div class="card-icon" aria-hidden="true">🌟</div>
+ <h3>Find Home Tuition Support in Hyderabad</h3>
+ <p>Let’s discuss your child’s class, subjects, preferred timing and tuition location. Tutor availability can be confirmed after receiving your enquiry.</p>
 
  <a class="btn btn-primary"
  href="https://wa.me/919440051590"
@@ -719,15 +861,58 @@ Subjects
 </div>
 </section>
 
+<!-- HYDERABAD AREA CONTENT -->
+
+<section class="seo-content" id="hyderabad">
+<div class="container">
+
+<h2 class="section-title">Home Tuition Consultancy in Hyderabad</h2>
+
+<p>
+Looking for home tuition in Hyderabad? AAYUSH HOME TUITIONS HYD
+helps parents share their tuition requirements and enquire about
+independent home tutors. We consider the student's class, subjects,
+school board, preferred schedule and locality when discussing a tutor match.
+</p>
+
+<h3>How Our Home Tutor Matching Service Works</h3>
+
+<ul>
+ <li>Parents share the student's class and required subjects.</li>
+ <li>Parents provide their Hyderabad locality and preferred timings.</li>
+ <li>We discuss tutor availability based on the requirements.</li>
+ <li>Parents can contact us through WhatsApp for further details.</li>
+</ul>
+
+<h3>Home Tuition for Different Subjects</h3>
+
+<p>
+Parents can enquire about Mathematics, Science, English, Telugu,
+Hindi, Social Studies and other school subjects for Classes 1 to 12.
+Please mention the student's syllabus and learning requirements
+when contacting us.
+</p>
+
+<h3>Areas We Serve</h3>
+
+<p>
+We accept home tuition enquiries from Hyderabad, Telangana.
+Please share your exact locality through the parent enquiry form
+or WhatsApp so that availability can be checked for your area.
+</p>
+
+</div>
+</section>
+
 <!-- PARENT ENQUIRY FORM -->
 
 <section id="contact">
 <div class="container">
 
-<h2 class="section-title">Parent Enquiry</h2>
+<h2 class="section-title">Parent Enquiry for Home Tuition</h2>
 
 <p class="section-lead">
-Looking for a home tutor? Send your requirements through WhatsApp.
+Looking for a home tutor in Hyderabad? Send your requirements through WhatsApp.
 </p>
 
 <div class="contact-grid">
@@ -753,16 +938,16 @@ Looking for a home tutor? Send your requirements through WhatsApp.
 
 <form class="contact-box form" id="enquiryForm">
 
-<label>Your Name
- <input id="name" required placeholder="Enter your name">
+<label for="name">Your Name
+ <input id="name" name="name" autocomplete="name" required placeholder="Enter your name">
 </label>
 
-<label>Mobile Number
- <input id="mobile" type="tel" required placeholder="Your contact number">
+<label for="mobile">Mobile Number
+ <input id="mobile" name="mobile" type="tel" autocomplete="tel" required maxlength="10" pattern="[0-9]{10}" title="Enter a 10 digit mobile number" placeholder="Enter 10 digit mobile number">
 </label>
 
-<label>Student's Class
- <select id="gradeSelect" required>
+<label for="gradeSelect">Student's Class
+ <select id="gradeSelect" name="grade" required>
   <option value="">Select class</option>
   <option>Class 1–5</option>
   <option>Class 6–8</option>
@@ -771,16 +956,16 @@ Looking for a home tutor? Send your requirements through WhatsApp.
  </select>
 </label>
 
-<label>Subjects Needed
- <input id="subjectsInput" placeholder="e.g. Maths, English">
+<label for="subjectsInput">Subjects Needed
+ <input id="subjectsInput" name="subjects" placeholder="e.g. Maths, English">
 </label>
 
-<label>Area in Hyderabad
- <input id="area" placeholder="Your locality">
+<label for="area">Area in Hyderabad
+ <input id="area" name="area" placeholder="Your locality">
 </label>
 
-<label>Message
- <textarea id="message" placeholder="Preferred timing or any questions"></textarea>
+<label for="message">Message
+ <textarea id="message" name="message" placeholder="Preferred timing or any questions"></textarea>
 </label>
 
 <button class="btn btn-primary" type="submit">
@@ -796,12 +981,12 @@ Looking for a home tutor? Send your requirements through WhatsApp.
 </div>
 </section>
 
-<!-- NEW TUTOR REGISTRATION SECTION -->
+<!-- TUTOR REGISTRATION SECTION -->
 
 <section class="tutor-section" id="tutor-register">
 <div class="container">
 
-<h2 class="section-title">Tutor Registration</h2>
+<h2 class="section-title">Tutor Registration in Hyderabad</h2>
 
 <p class="section-lead">
 Are you interested in teaching home tuition in Hyderabad?
@@ -814,11 +999,11 @@ Register your details with Aayush Home Tuitions.
 
 <h3 class="tutor-heading">👩‍🏫 Join Our Tutor Network</h3>
 
-<p>We connect qualified and interested tutors with students across Hyderabad.</p>
+<p>We connect parents with independent tutors based on student requirements and tutor availability.</p>
 
 <p>📚 <strong>Classes:</strong> 1st to 12th</p>
 
-<p>📖 <strong>Subjects:</strong> All Subjects</p>
+<p>📖 <strong>Subjects:</strong> School subjects</p>
 
 <p>🎓 <strong>Qualification:</strong> Degree / PG / B.Ed / Others</p>
 
@@ -836,25 +1021,20 @@ Register your details with Aayush Home Tuitions.
 
 <form class="contact-box form" id="tutorForm">
 
-<label>Full Name
- <input id="tName" required placeholder="Enter your full name">
+<label for="tName">Full Name
+ <input id="tName" name="tName" autocomplete="name" required placeholder="Enter your full name">
 </label>
 
-<label>Mobile Number
- <input id="tMobile" type="tel" required
- pattern="[0-9]{10}"
- maxlength="10"
- title="Enter a valid 10 digit mobile number"
- placeholder="Enter 10 digit mobile number">
+<label for="tMobile">Mobile Number
+ <input id="tMobile" name="tMobile" type="tel" autocomplete="tel" required pattern="[0-9]{10}" maxlength="10" title="Enter a valid 10 digit mobile number" placeholder="Enter 10 digit mobile number">
 </label>
 
-<label>WhatsApp Number (if different)
- <input id="tWhatsapp" type="tel" maxlength="10"
- placeholder="Optional WhatsApp number">
+<label for="tWhatsapp">WhatsApp Number (if different)
+ <input id="tWhatsapp" name="tWhatsapp" type="tel" pattern="[0-9]{10}" maxlength="10" placeholder="Optional 10 digit WhatsApp number">
 </label>
 
-<label>Qualification
- <select id="tQualification" required>
+<label for="tQualification">Qualification
+ <select id="tQualification" name="qualification" required>
   <option value="">Select Qualification</option>
   <option>Degree</option>
   <option>Post Graduation</option>
@@ -865,18 +1045,16 @@ Register your details with Aayush Home Tuitions.
  </select>
 </label>
 
-<label>Subjects You Can Teach
- <input id="tSubjects" required
- placeholder="Maths, Science, English etc.">
+<label for="tSubjects">Subjects You Can Teach
+ <input id="tSubjects" name="subjects" required placeholder="Maths, Science, English etc.">
 </label>
 
-<label>Classes You Can Teach
- <input id="tClasses" required
- placeholder="1st to 10th / Intermediate">
+<label for="tClasses">Classes You Can Teach
+ <input id="tClasses" name="classes" required placeholder="1st to 10th / Intermediate">
 </label>
 
-<label>Teaching Experience
- <select id="tExperience" required>
+<label for="tExperience">Teaching Experience
+ <select id="tExperience" name="experience" required>
   <option value="">Select Experience</option>
   <option>Fresher</option>
   <option>Less than 1 year</option>
@@ -886,19 +1064,16 @@ Register your details with Aayush Home Tuitions.
  </select>
 </label>
 
-<label>Preferred Location in Hyderabad
- <input id="tArea" required
- placeholder="Enter your preferred area">
+<label for="tArea">Preferred Location in Hyderabad
+ <input id="tArea" name="area" required placeholder="Enter your preferred area">
 </label>
 
-<label>Expected Monthly Fee
- <input id="tSalary"
- placeholder="Enter expected fee">
+<label for="tSalary">Expected Monthly Fee
+ <input id="tSalary" name="salary" placeholder="Enter expected fee">
 </label>
 
-<label>Additional Information
- <textarea id="tMessage"
- placeholder="Any other details"></textarea>
+<label for="tMessage">Additional Information
+ <textarea id="tMessage" name="message" placeholder="Any other details"></textarea>
 </label>
 
 <button class="btn btn-primary" type="submit">
@@ -908,9 +1083,56 @@ Register your details with Aayush Home Tuitions.
 <div class="notice">
  After submitting, WhatsApp will open with your registration details.
  Please press Send to share your details with us.
- </div>
+</div>
 
 </form>
+
+</div>
+</div>
+</section>
+
+<!-- FAQ SECTION -->
+
+<section class="faq-section" id="faq">
+<div class="container">
+
+<h2 class="section-title">Frequently Asked Questions About Home Tuition</h2>
+
+<p class="section-lead">
+Common questions from parents looking for home tutors in Hyderabad.
+</p>
+
+<div class="faq-list">
+
+<details>
+ <summary>How can I find a home tutor in Hyderabad?</summary>
+ <p>Share your child's class, subjects, locality and preferred timing through our parent enquiry form or WhatsApp. We will discuss tutor availability based on your requirements.</p>
+</details>
+
+<details>
+ <summary>Do you accept home tuition enquiries for Classes 1 to 12?</summary>
+ <p>Yes. Parents can enquire about home tuition for Classes 1 to 12, including Intermediate. Tutor availability depends on the subject and location.</p>
+</details>
+
+<details>
+ <summary>Do you help with CBSE, ICSE and Telangana State Board tuition?</summary>
+ <p>Parents can enquire about tuition support for CBSE, ICSE and Telangana State Board students. Please mention the school board and class when contacting us.</p>
+</details>
+
+<details>
+ <summary>Which subjects can I request a home tutor for?</summary>
+ <p>You can enquire about Mathematics, Science, English, Telugu, Hindi, Social Studies and other school subjects. Please specify the subjects in your enquiry.</p>
+</details>
+
+<details>
+ <summary>How do I register as a home tutor?</summary>
+ <p>Fill in the Tutor Registration form on this website. WhatsApp will open with your details. Review the message and press Send to submit your registration.</p>
+</details>
+
+<details>
+ <summary>How can I contact AAYUSH HOME TUITIONS HYD?</summary>
+ <p>Call or WhatsApp 9440051590 to discuss parent enquiries, tutor registration and home tuition availability in Hyderabad.</p>
+</details>
 
 </div>
 </div>
@@ -924,12 +1146,12 @@ Register your details with Aayush Home Tuitions.
 <div class="footer-inner">
 
 <div>
- <strong>📚 Aayush Home Tuitions HYD</strong>
+ <strong>📚 AAYUSH HOME TUITIONS HYD</strong>
  <div class="footer-note">Learn Today • Build a Better Tomorrow</div>
 </div>
 
 <div>
- 📍 Hyderabad |
+ 📍 Hyderabad, Telangana |
  <a href="tel:+919440051590">☎ 9440051590</a>
 </div>
 
@@ -943,6 +1165,7 @@ Register your details with Aayush Home Tuitions.
 <!-- WHATSAPP AND MENU JAVASCRIPT -->
 
 <script>
+"use strict";
 
 const WHATSAPP_NUMBER = "919440051590";
 
@@ -952,14 +1175,16 @@ const menuBtn = document.getElementById("menuBtn");
 const navlinks = document.getElementById("navlinks");
 
 menuBtn.addEventListener("click", function() {
- const open = navlinks.classList.toggle("open");
- menuBtn.setAttribute("aria-expanded", String(open));
+ const isOpen = navlinks.classList.toggle("open");
+ menuBtn.setAttribute("aria-expanded", String(isOpen));
+ menuBtn.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
 });
 
-navlinks.querySelectorAll("a").forEach(function(a) {
- a.addEventListener("click", function() {
+navlinks.querySelectorAll("a").forEach(function(link) {
+ link.addEventListener("click", function() {
   navlinks.classList.remove("open");
   menuBtn.setAttribute("aria-expanded", "false");
+  menuBtn.setAttribute("aria-label", "Open menu");
  });
 });
 
@@ -969,7 +1194,7 @@ function sendWhatsApp(message) {
  const url = "https://wa.me/" + WHATSAPP_NUMBER +
              "?text=" + encodeURIComponent(message);
 
- window.open(url, "_blank");
+ window.open(url, "_blank", "noopener,noreferrer");
 }
 
 // PARENT ENQUIRY FORM
@@ -987,6 +1212,8 @@ document.getElementById("enquiryForm").addEventListener("submit", function(e) {
 
  const whatsappMessage =
 `NEW PARENT ENQUIRY
+
+Business: AAYUSH HOME TUITIONS HYD
 
 Name: ${name}
 Mobile: ${mobile}
@@ -1035,9 +1262,8 @@ Additional Information: ${additional}`;
  sendWhatsApp(tutorMessage);
 
 });
-
 </script>
 
 </body>
 </html>
-```
+
